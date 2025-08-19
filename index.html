@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRUTHVI R - Information Science Undergrad & ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">PR</div>
+            <div class="loading-text">Loading Portfolio...</div>
+            <div class="loading-progress">
+                <div class="loading-bar" id="loading-bar"></div>
+            </div>
+        </div>
+        <div class="loading-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Particle Background -->
+    <div class="particles-container" id="particles-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glassmorphism" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">PRUTHVI R</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi, I'm</div>
+                <h1 class="hero-title" id="hero-title">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h1>
+                <h2 class="hero-subtitle animate-fade-in">Information Science Undergrad & ML Engineer</h2>
+                <p class="hero-description animate-fade-in">Information Science undergrad skilled in backend development, machine learning, and cloud deployment. Experienced with Python, Flask/Django, SQL, AWS, and strong in DSA.</p>
+                
+                <div class="hero-stats animate-fade-in">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="8.75">0</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="250">0</div>
+                        <div class="stat-label">LEETCODE</div>
+                    </div>
+                </div>
+
+                <div class="hero-buttons animate-fade-in">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Let's Connect</span>
+                    </a>
+                </div>
+
+                <div class="hero-social animate-fade-in">
+                    <a href="mailto:pruthviramesh7@gmail.com" class="social-link" target="_blank">
+                        <span>Email</span>
+                    </a>
+                    <a href="https://linkedin.com/in/pruthvi-r-33a66b254" class="social-link" target="_blank">
+                        <span>LinkedIn</span>
+                    </a>
+                    <div class="contact-info">
+                        <span>📱 6364004955</span>
+                        <span>📍 Bengaluru, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content animate-on-scroll">
+                <div class="about-text">
+                    <div class="about-highlight">
+                        <h3>Passionate Problem Solver</h3>
+                        <p>I'm a dedicated Information Science undergraduate with a strong focus on machine learning, artificial intelligence, and cloud technologies. My journey in technology is driven by curiosity and the desire to create innovative solutions that make a real impact.</p>
+                    </div>
+                    
+                    <div class="experience-highlights">
+                        <div class="highlight-card glassmorphism">
+                            <div class="highlight-icon">🤖</div>
+                            <h4>AI/ML Expertise</h4>
+                            <p>Advanced experience with TensorFlow, Keras, and OpenCV. Achieved 92% accuracy in facial recognition systems using Siamese Neural Networks.</p>
+                        </div>
+                        <div class="highlight-card glassmorphism">
+                            <div class="highlight-icon">☁️</div>
+                            <h4>Cloud Architecture</h4>
+                            <p>Proficient in AWS services (EC2, S3, RDS, Lambda) with hands-on experience in deploying scalable applications.</p>
+                        </div>
+                        <div class="highlight-card glassmorphism">
+                            <div class="highlight-icon">💻</div>
+                            <h4>Full-Stack Development</h4>
+                            <p>Skilled in modern web technologies including React.js, Next.js, Node.js, and Flask for building comprehensive solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Skills & Technologies</h2>
+            <div class="skills-container animate-on-scroll">
+                <div class="skill-category glassmorphism">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Python" data-level="95"></div>
+                        <div class="skill-item" data-skill="Java" data-level="90"></div>
+                        <div class="skill-item" data-skill="JavaScript" data-level="88"></div>
+                        <div class="skill-item" data-skill="HTML" data-level="90"></div>
+                        <div class="skill-item" data-skill="CSS" data-level="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glassmorphism">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="TensorFlow" data-level="92"></div>
+                        <div class="skill-item" data-skill="Flask" data-level="90"></div>
+                        <div class="skill-item" data-skill="React.js" data-level="88"></div>
+                        <div class="skill-item" data-skill="Keras" data-level="88"></div>
+                        <div class="skill-item" data-skill="Next.js" data-level="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-category glassmorphism">
+                    <h3>Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="MySQL" data-level="90"></div>
+                        <div class="skill-item" data-skill="MongoDB" data-level="78"></div>
+                        <div class="skill-item" data-skill="SQLite" data-level="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Professional Experience</h2>
+            <div class="timeline animate-on-scroll">
+                <div class="timeline-item glassmorphism">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Research Intern</h3>
+                            <h4>IEEE Computer Society Bangalore Chapter</h4>
+                            <span class="timeline-date">April 2024 - September 2024</span>
+                            <span class="timeline-location">Bengaluru, India</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="achievements-list">
+                                <li>Engineered a Siamese Neural Network for facial recognition, achieving 92% accuracy on 1,000+ images</li>
+                                <li>Reduced training time by 30% with efficient data pre-processing and hyperparameter tuning</li>
+                                <li>Enhanced model accuracy by 20%, improving efficiency and suitability for real-time applications</li>
+                                <li>Implemented the model using Python, TensorFlow, Keras, and OpenCV, increasing verification accuracy by 40% and reducing processing time by 30%</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">Keras</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">Siamese Neural Networks</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <div class="projects-grid animate-on-scroll">
+                <div class="project-card glassmorphism" data-project="parking">
+                    <div class="project-header">
+                        <div class="project-icon">🚗</div>
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Parking Management System</h3>
+                        <p>Built a Smart Parking Management System with computer vision, boosting efficiency 30% and cutting parking time 80%.</p>
+                        <div class="project-highlights">
+                            <span class="highlight">50+ vehicles supported</span>
+                            <span class="highlight">30% efficiency boost</span>
+                            <span class="highlight">96% accurate detection</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-view-details">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card glassmorphism featured" data-project="retrovest">
+                    <div class="project-header">
+                        <div class="project-icon">📈</div>
+                        <div class="project-status status-winner">Award Winner</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>RetroVest - Smart Investment Simulator</h3>
+                        <p>Built Time Machine Mode to simulate past market scenarios (2013-2025), enabling investment decision-making and outcome evaluation.</p>
+                        <div class="project-highlights">
+                            <span class="highlight">Best FinTech Award</span>
+                            <span class="highlight">Time Machine Mode</span>
+                            <span class="highlight">AI Risk Analysis</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Market Data APIs</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-view-details">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card glassmorphism" data-project="office">
+                    <div class="project-header">
+                        <div class="project-icon">🏢</div>
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Office Seat Manager</h3>
+                        <p>Developed a seat and conference room booking system using React.js, FastAPI, and MySQL, handling 50+ daily reservations.</p>
+                        <div class="project-highlights">
+                            <span class="highlight">100+ users</span>
+                            <span class="highlight">95% uptime</span>
+                            <span class="highlight">AI-powered allocation</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">JWT Auth</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-view-details">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card glassmorphism" data-project="movie">
+                    <div class="project-header">
+                        <div class="project-icon">🎬</div>
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Movie Collection Tracker</h3>
+                        <p>Developed a full-stack CRUD web app using HTML, CSS, JavaScript, PHP, and MySQL to manage personal movie collections.</p>
+                        <div class="project-highlights">
+                            <span class="highlight">Full-stack CRUD</span>
+                            <span class="highlight">Dynamic UI</span>
+                            <span class="highlight">Responsive design</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-view-details">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card glassmorphism" data-project="facial">
+                    <div class="project-header">
+                        <div class="project-icon">👤</div>
+                        <div class="project-status status-completed">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Facial Recognition System</h3>
+                        <p>Engineered a Siamese Neural Network for facial recognition, achieving 92% accuracy on 1,000+ images.</p>
+                        <div class="project-highlights">
+                            <span class="highlight">92% accuracy</span>
+                            <span class="highlight">Real-time processing</span>
+                            <span class="highlight">IEEE project</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Siamese Networks</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-view-details">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card glassmorphism" data-project="school">
+                    <div class="project-header">
+                        <div class="project-icon">🏫</div>
+                        <div class="project-status status-winner">Top 20 Team</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Government School Website</h3>
+                        <p>Built a prototype government school website using HTML, CSS, and JavaScript with sections for admissions, faculty, events, and announcements.</p>
+                        <div class="project-highlights">
+                            <span class="highlight">Top 20 teams</span>
+                            <span class="highlight">Responsive design</span>
+                            <span class="highlight">Accessibility focused</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                            <span class="tech-tag">Accessibility</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Education</h2>
+            <div class="education-content animate-on-scroll">
+                <div class="education-card glassmorphism">
+                    <div class="education-header">
+                        <div class="education-icon">🎓</div>
+                        <div class="education-info">
+                            <h3>Bachelor of Engineering</h3>
+                            <h4>Information Science</h4>
+                            <h5>BMS Institute of Technology and Management</h5>
+                            <div class="education-details">
+                                <span class="cgpa">CGPA: 8.75</span>
+                                <span class="duration">2022 - 2026 (Expected)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Achievements & Recognition</h2>
+            <div class="achievements-grid animate-on-scroll">
+                <div class="achievement-card glassmorphism">
+                    <div class="achievement-icon">🏆</div>
+                    <h4>Amazon ML School 2025</h4>
+                    <p>Selected to participate in advanced ML training program by Amazon (Currently Pursuing)</p>
+                    <div class="achievement-year">2025</div>
+                </div>
+
+                <div class="achievement-card glassmorphism featured">
+                    <div class="achievement-icon">🥇</div>
+                    <h4>Best FinTech Project Award</h4>
+                    <p>Achieved Best FinTech Project Award at HackFest 2025 for RetroVest project</p>
+                    <div class="achievement-year">2025</div>
+                </div>
+
+                <div class="achievement-card glassmorphism">
+                    <div class="achievement-icon">💻</div>
+                    <h4>LeetCode Problem Solver</h4>
+                    <p>Solved 250+ problems on LeetCode, strengthening data structures & algorithms proficiency</p>
+                    <div class="achievement-year">Ongoing</div>
+                </div>
+
+                <div class="achievement-card glassmorphism">
+                    <div class="achievement-icon">📄</div>
+                    <h4>IEEE Research Publication</h4>
+                    <p>Published a research paper during IEEE Research Internship (2024) under IEEE Computer Society Bangalore Chapter</p>
+                    <div class="achievement-year">2024</div>
+                </div>
+
+                <div class="achievement-card glassmorphism">
+                    <div class="achievement-icon">👥</div>
+                    <h4>IEEE ITS Society Treasurer</h4>
+                    <p>Serving as Treasurer, IEEE ITS Society, BMSIT, managing finances and technical event coordination</p>
+                    <div class="achievement-year">Current</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <div class="contact-content animate-on-scroll">
+                <div class="contact-info">
+                    <div class="contact-header">
+                        <h3>Let's Build Something Amazing</h3>
+                        <p>I'm always excited to discuss new opportunities, innovative projects, or collaborations in technology. Whether you're looking for a skilled developer or want to chat about the latest in AI and ML, I'd love to hear from you!</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item glassmorphism">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:pruthviramesh7@gmail.com" class="contact-value">pruthviramesh7@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item glassmorphism">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-text">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">6364004955</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item glassmorphism">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Bengaluru, India</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item glassmorphism">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-text">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://linkedin.com/in/pruthvi-r-33a66b254" target="_blank" class="contact-value">pruthvi-r-33a66b254</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form glassmorphism" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full-width">
+                            <span>Send Message</span>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Detail Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content glassmorphism">
+            <button class="modal-close" id="modal-close">×</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
