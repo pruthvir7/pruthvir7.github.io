@@ -17,7 +17,7 @@ const projectData = {
         highlights: ["50+ vehicles supported", "30% efficiency boost", "80% parking time reduction", "96% accurate anomaly detection", "Flask RESTful APIs"],
         category: "AI/ML",
         status: "Completed",
-        github: "#"
+        github: "https://github.com/pruthvir7/ParkingManagement"
     },
     retrovest: {
         title: "RetroVest - Smart Investment Simulator",
@@ -31,7 +31,7 @@ const projectData = {
         highlights: ["Best FinTech Project Award at HackFest 2025", "Time Machine Mode (2013-2025)", "AI-powered risk analysis", "Real-time market data", "Educational tools"],
         category: "FinTech",
         status: "Award Winner",
-        github: "#"
+        github: "https://github.com/pruthvir7/RetroVest"
     },
     office: {
         title: "Office Seat Manager",
@@ -59,7 +59,7 @@ const projectData = {
         highlights: ["Full-stack CRUD operations", "Dynamic card layouts", "Responsive UI design", "Backend API integration", "Database management"],
         category: "Web Development",
         status: "Completed",
-        github: "#"
+        github: "https://github.com/pruthvir7/MovieTracker"
     },
     facial: {
         title: "Facial Recognition System",
